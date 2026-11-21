@@ -37,10 +37,10 @@ export function calculateStudentResult(grade, subjects) {
 
     let classification;
 
-    if (average >= 7) {
-        classification = "Khá";
-    } else if (average >= 8.5) {
+    if (average >= 8.5) {
         classification = "Giỏi";
+    } else if (average >= 7) {
+        classification = "Khá";
     } else if (average >= 5) {
         classification = "Trung bình";
     } else {

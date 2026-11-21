@@ -57,12 +57,12 @@ export function renderStudentList(students, subjects, grades) {
                 <td class="average-score">
                 ${formatScore(result.average)}
                 </td>
-                <td>${formatCurrency(result.scholarship)}</td>
                 <td>
                 <span class="classification">
                     ${result.classification}
                 </span>
                 </td>
+                <td>${formatCurrency(result.scholarship)}</td>
                 <td>
                 <button class="detail-button" data-student-id="${student.id}">
                     Xem
